@@ -30,7 +30,7 @@
                 
                 <div class="form-group">
                     <label>PW</label>
-                    <input class="form-control" type="text" name="pw" placeholder="Ingrese pw" required/>  
+                    <input class="form-control" type="password" name="pw" placeholder="Ingrese pw" required/>  
                 </div>
 
                 <input class="btn btn-danger btn-block" type="submit" name="accion" value="Ingresar"/>

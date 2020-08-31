@@ -26,7 +26,12 @@ public class GenerarJson
             obj.put("Id : ", id);
             obj.put("Sesion : ", sesion);
             
-            FileWriter file = new FileWriter("prueba.json");
+            File f = new File("prueba.json");
+            System.out.println(f.getAbsolutePath());
+
+            FileWriter file = new FileWriter("\\bin\\prueba.json");
+//            FileWriter file = new FileWriter("\\src\\main\\resources\\prueba.json");
+
             file.write(obj.toJSONString());
             file.flush();
             file.close();
